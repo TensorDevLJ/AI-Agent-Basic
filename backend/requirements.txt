@@ -11,3 +11,7 @@ chromadb
 sentence-transformers
 python-multipart
 jinja2
+pydantic
+cohere
+sqlite3-binary
+
