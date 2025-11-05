@@ -175,7 +175,7 @@ smart-agent/
 ## 🧑‍💻 Author
 
 👩‍🎓 **Likhitha J**  
-🎓 *Electronics & Telecommunication Engineer*  
+  
 💡 Passionate about AI, Web Development & Entrepreneurship  
 🌎 Building smart solutions that empower students & developers  
 
@@ -195,10 +195,8 @@ smart-agent/
 This project is open-source under the **MIT License**.
 
 ---
+Anybody fork and contribute 
+ iam excited to collaborateto  work on real agents from scratch 
 
-## 💖 Acknowledgements
-Special thanks to:
-- **Render** for free backend hosting  
-- **Vercel** for smooth frontend deployment  
-- **Cohere / Groq / HuggingFace** for providing open AI models  
-- **OpenAI GPT** inspiration for system design  
+
+ 
