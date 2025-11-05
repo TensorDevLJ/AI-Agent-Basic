@@ -195,8 +195,11 @@ smart-agent/
 This project is open-source under the **MIT License**.
 
 ---
-Anybody fork and contribute 
- iam excited to collaborateto  work on real agents from scratch 
+Anybody fork and contribute .
+
+
+---
+ iam excited to collaborate and work on real agents from scratch 
 
 
  
