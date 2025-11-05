@@ -21,10 +21,13 @@ app = FastAPI(title="Smart Agent API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://lyrasenselikhithajagadeesh.vercel.app"
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 class AskRequest(BaseModel):
     message: str
