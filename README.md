@@ -23,4 +23,3 @@ This project contains:
    Backend: http://localhost:8000
 
 
->>>>>>> 40cc560 (Initial commit)
