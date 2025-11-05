@@ -28,6 +28,13 @@ app.add_middleware(
 
 class AskRequest(BaseModel):
     message: str
+@app.get("/reminders/due")
+def due_reminders():
+    # returns reminders not yet done and whose remind_at <= now
+    rows = list_reminders()
+    now = datetime.now().isoformat()
+    due = [ {"id": r[0], "title": r[1], "remind_at": r[2]} for r in rows if r[3]==0 and r[2] <= now ]
+    return {"due": due}
 
 
 @app.get("/health")
